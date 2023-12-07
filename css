@@ -1,1 +1,159 @@
+* {
+    box-sizing: border-box;
+}
 
+.row {
+    width: 100%;
+}
+
+section {
+    background-color: grey;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.section-title {
+    background-color: brown;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 5px;
+    position: relative;
+    float: right;
+
+}
+
+/***** Desktop View*****/
+@media(min-width: 992px) {.col-DV-1 ,.col-DV-2 ,.col-DV-3 ,.col-DV-4 ,
+    .col-DV-5 ,.col-DV-6 ,.col-DV-7 ,.col-DV-8 ,.col-DV-9 ,.col-DV-10 ,
+    .col-DV-11 ,.col-DV-12{
+        float: top;
+        float:left;    
+    }
+.col-DV-1 {
+    width: 8.33%;
+}    
+.col-DV-2 {
+    width: 16.66%;
+}
+.col-DV-3 {
+    width: 25%;
+}
+.col-DV-4 {
+    width: 33.33%;
+}
+.col-DV-5 {
+    width: 41.66%;
+}
+.col-DV-6 {
+    width: 50%;
+}
+.col-DV-7 {
+    width: 58.33%;
+}
+.col-DV-8 {
+    width: 66.66%;
+}
+.col-DV-9 {
+    width: 75%;
+}
+.col-DV-10 {
+    width: 73.33%;
+}
+.col-DV-11 {
+    width: 91.66%;
+}
+.col-DV-12 {
+    width: 100%;
+}    
+}
+
+/**** Tablet View*****/
+@media(min-width: 768px) and (max-width: 991px) {.col-TV-1 ,.col-TV-2 ,
+    .col-TV-3 ,.col-TV-4 ,.col-TV-5 ,.col-TV-6 ,.col-TV-7 ,.col-TV-8 ,.col-TV-9 ,
+    .col-TV-10 ,.col-TV-11, .col-TV-12{
+        float: left;
+        
+    
+    }
+.col-TV-1 {
+    width: 8.33%;
+}
+.col-TV-2 {
+    width: 16.66%;
+}
+.col-TV-3 {
+    width: 25%;
+}
+.col-TV-4 {
+    width: 33.33%;
+}
+.col-TV-5 {
+    width: 41.66%;
+}
+.col-TV-6 {
+    width: 50%;
+}
+.col-TV-7 {
+    width: 58.33%;
+}
+.col-TV-8 {
+    width: 66.66%;
+}
+.col-TV-9 {
+    width: 75%;
+}
+.col-TV-10 {
+    width: 73.33%;
+}
+.col-TV-11 {
+    width: 91.66%;
+}
+.col-TV-12 {
+    width: 100%;
+}    
+
+
+/**** Mobile View****/
+@media(max-width: 767px) {
+    .col-CV-1 ,.col-CV-2 ,.col-CV-3 ,.col-CV-4 ,
+    .col-CV-5 ,.col-CV-6 ,.col-CV-7 ,.col-CV-8 ,.col-CV-9 ,.col-CV-10 ,
+    .col-CV-11 ,.col-CV-12{
+        float: left;
+       
+    }
+.col-CV-1 {
+    width: 8.33%;
+}
+.col-CV-2 {
+    width: 16.66%;
+}
+.col-CV-3 {
+    width: 25%;
+}
+.col-CV-4 {
+    width: 33.33%;
+}
+.col-CV-5 {
+    width: 41.66%;
+}
+.col-CV-6 {
+    width: 50%;
+}
+.col-CV-7 {
+    width: 58.33%;
+}
+.col-CV-8 {
+    width: 66.66%;
+}
+.col-CV-9 {
+    width: 75%;
+}
+.col-CV-10 {
+    width: 73.33%;
+}
+.col-CV-11 {
+    width: 91.66%;
+}
+.col-CV-12 {
+    width: 100%;
+ }
